@@ -115,6 +115,9 @@ agency_region_btn.click()
 region_element = driver.find_element(By.XPATH, "//span[text() = 'Afghanistan']")
 region_element.click()
 
+driver.find_element(By.TAG_NAME, "html").click()
+time.sleep(0.5)  # brief pause
+
 print("Agency Details added successfully")
 
 next_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
@@ -202,6 +205,10 @@ preferred_countries_btn.click()
 WebDriverWait(driver, 5).until(
     EC.element_to_be_clickable((By.XPATH, "//span[text()='Australia']"))
 ).click()
+
+
+driver.find_element(By.TAG_NAME, "html").click()
+time.sleep(0.5)  # brief pause
 
 preferred_institution_types_btn = driver.find_element(
     By.XPATH, "//button[@type='button' and @data-state='unchecked']"
