@@ -1,0 +1,12 @@
+[project]
+name = "vrittech"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipython>=9.6.0",
+    "mailslurp-client>=17.0.0",
+    "python-dotenv>=1.1.1",
+    "selenium>=4.37.0",
+]

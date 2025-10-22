@@ -1,0 +1,3 @@
+mailslurp-client
+selenium
+python-dotenv

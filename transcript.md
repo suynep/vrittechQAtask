@@ -1,0 +1,2 @@
+- A random new email is created on every run! 
+- Hardcoded values are entered in the provided fields automatically.
