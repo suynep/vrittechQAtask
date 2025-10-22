@@ -1,9 +1,9 @@
 # Signup automation using Selenium
+By: Suyash Nepal
 
-> By: Suyash Nepal
+![demo gif](https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.gif?raw=true)
 
-<video src="https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.mkv" controls width="640" height="360">
-</video>
+The above demo video can be viewed at: ![here](https://drive.google.com/file/d/1S8-aWGeasFOHr3TcRmzbBTpWTXpPepNC/view?usp=sharing)
 
 ## General Info on the scripts
 > The scripts RELY on Firefox being installed, and no fallback for Chrome or other browsers have been added at present! ENSURE FIREFOX IS INSTALLED BEFORE RUNNING!
