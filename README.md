@@ -2,8 +2,7 @@
 
 > By: Suyash Nepal
 
-<video src="https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.mkv" controls width="640" height="360">
-</video>
+![demo gif](https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.gif?raw=true)
 
 ## General Info on the scripts
 > The scripts RELY on Firefox being installed, and no fallback for Chrome or other browsers have been added at present! ENSURE FIREFOX IS INSTALLED BEFORE RUNNING!
