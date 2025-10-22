@@ -2,7 +2,7 @@
 
 > By: Suyash Nepal
 
-<video src="https://github.com/suynep/vrittechQAtask/" controls width="640" height="360">
+<video src="https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.mkv" controls width="640" height="360">
 </video>
 
 ## General Info on the scripts
