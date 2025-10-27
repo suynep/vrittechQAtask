@@ -55,7 +55,7 @@ driver.switch_to.window(driver.window_handles[1])
 driver.get(temp_mail_url)
 
 ## Check the loading of element with "email" id
-WebDriverWait(driver, 20).until(
+WebDriverWait(driver, 40).until(
     lambda d: d.find_element(By.ID, "email").get_attribute("value").strip() != ""
 )
 
@@ -68,12 +68,7 @@ driver.switch_to.window(driver.window_handles[0])
 
 ## Mail Fetching logic here
 
-# driver.close()
-
 email_element = driver.find_element(By.NAME, "email")
-# print("creating a random email address")
-# inbox = create_random_email()
-# email_element.send_keys(inbox.email_address)
 email_element.send_keys(email_value)
 
 phone_element = driver.find_element(By.NAME, "phoneNumber")
@@ -90,7 +85,7 @@ next_btn.click()
 #### FOR THE OTP VERIFICATION PAGE
 
 driver.switch_to.window(driver.window_handles[1])
-WebDriverWait(driver, 40).until(
+WebDriverWait(driver, 120).until(
     lambda d: d.find_element(By.XPATH, "//div[@class='message__body']/span")
 )
 
