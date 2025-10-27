@@ -1,6 +1,10 @@
 # Signup automation using Selenium
 By: Suyash Nepal
 
+
+## Updated script usage
+Follow the instructions in the **Running the scripts locally** section, and then, instead of `uv run interactor.py`, run `uv run new_interactor.py`
+
 ![demo gif](https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.gif?raw=true)
 
 The above demo video can be viewed at: ![here](https://github.com/suynep/vrittechQAtask/blob/main/assets/demo.mkv)
